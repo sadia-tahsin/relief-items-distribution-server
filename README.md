@@ -53,10 +53,11 @@
         }
         ```
 
-    ```
+  
      - POST `/api/v1/create-supply`
     - Description: add a new supply post.
     - Request:
+      
         ```json
      {
     "Title": "Give the Gift of Food: Donate Kits for Families in Crisis",
@@ -64,19 +65,15 @@
     "Category": "Food supplies",
     "Amount": 100,
       "Description": "Your contribution ensures that medical professionals have the tools they need to save lives and alleviate suffering. Together, we can make a tangible difference in the fight against illness and disease, offering comfort and healing to those who need it most. Join us in our mission to extend a helping hand to those in need. Your generosity will bring hope to the sick and vulnerable, restoring health and well-being to individuals and communities around the world. Let's stand together in solidarity, showing compassion and care for our fellow human beings during their time of greatest need."
-  }
-        ```
+  } ```
     - Response: 
         ```json
         {
             "success": true,
             "message": "Data added successfuly",
-                }
+        } ```
 
-    ```
-
- 
-       - GET `/api/v1/relief-goods`
+   - GET `/api/v1/relief-goods`
        - Description: Get supply posts.
 
         - GET `/api/v1/relief-goods/:id`
