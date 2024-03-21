@@ -10,7 +10,7 @@
 
 ## Configuration:
 - Environment Variables:
-  - `PORT`: Port number the server listens on. Default: 3000
+  - `PORT`: Port number the server listens on. Default: 5000
   - `MONGODB_URI`: URI for MongoDB database.
   - `JWT_SECRET`: Secret key for JWT token generation.
   - `EXPIRES_IN`: Token expiration time.
